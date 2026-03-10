@@ -4,7 +4,7 @@
 
 ### Шаги
 1. Склонировать проект 'git clone https://github.com/gusarovden/pytest_ui_api_template.git'
-2. Установить зависимости
+2. Установить зависимости "pip3 install > -r requirements.txt"
 3. Запустить тесты 'pytest'
 4. Сгенерировать отчет 'allure generate allure-files -o allure-report'
 5. Открыть отчет 'allure open allure-report'
@@ -22,10 +22,12 @@
 - ./pages - описание страниц
 - ./api - хелперы для работы с API
 - ./db - хелперы для работы с БД
+- test_config.ini - настройки для тестов
 
 ### Полезные ссылки
 - [Подсказка по markdown](https://www.markdownguide.org/basic-syntax/)
 - [Генератор файла .gitignore](https://www.toptal.com/developers/gitignore)
+- [Про pip freeze](https://pip.pypa.io/en/stable/cli/pip_freeze/)
 
 ### Библиотеки (!)
 - pyp install pytest
